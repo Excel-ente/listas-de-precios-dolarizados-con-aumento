@@ -127,8 +127,8 @@ finalDownloadBtn &&
   finalDownloadBtn.addEventListener("click", () => {
     if (finalDownloadBtn.disabled) return;
     const link = document.createElement("a");
-    link.href = "SFI_v5.6.zip";
-    link.download = "SFI_v5.6.zip";
+    link.href = "lista-de-precios-con-aumentos-usd.zip";
+    link.download = "lista-de-precios-con-aumentos-usd.zip";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
